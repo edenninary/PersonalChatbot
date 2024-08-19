@@ -21,14 +21,17 @@ model_name = "yam-peleg/Hebrew-Mistral-7B"
 base_model_id = os.getenv(model_name)
 
 ########################################################
-################## Must Fill In#########################
+################## Paste Lines Here#####################
 ##
-## insert the path to where the trained model was stored
-saved_model_path = ""
+##
+base_model_id = "yam-peleg/Hebrew-Mistral-7B"
+path_to_data = "path/to/data"
+saved_model_path = "path/to/save/model"
 ##
 ##
 ########################################################
 ########################################################
+
 lora_weights = os.getenv(saved_model_path)
 
 #determine system and user, can be switched
