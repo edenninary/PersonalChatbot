@@ -21,12 +21,12 @@ torch.manual_seed(seed)
 
 
 ########################################################
-################## Must Fill In#########################
+################## Paste Lines Here#####################
 ##
 ##
 base_model_id = "yam-peleg/Hebrew-Mistral-7B"
-path_to_data = "/home/joned/Desktop/Chat_bot_proj/project_v1/src/data_preprocessing/final_outputs/formatted_data.jsonl"
-saved_model_path = "/home/joned/Desktop/Chat_bot_proj/project_v1/src/training/M1"
+path_to_data = "path/to/data"
+saved_model_path = "path/to/save/model"
 ##
 ##
 ########################################################
