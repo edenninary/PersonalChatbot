@@ -12,9 +12,19 @@ SAME_USER_THRESHOLD_SECONDS = 600
 HISTORY_MAX_TOKENS = 3000
 CONVO_MIN_TOKENS = 100
 
+########################################################
+################## Paste Lines Here#####################
+##
+##
+base_model_id = "yam-peleg/Hebrew-Mistral-7B"
+path_to_data = "path/to/data"
+saved_model_path = "path/to/save/model"
+##
+##
+########################################################
+########################################################
 
 # create the tokenizer to measure the length of the text
-base_model_id = "yam-peleg/Hebrew-Mistral-7B"
 encoder = AutoTokenizer.from_pretrained(base_model_id, add_bos_token=False, add_special_tokens=False, trust_remote_code=True, use_fast=True, force_download=False)
 
 # combine messages from the same sender within 5 mins into a single new-line separated message
