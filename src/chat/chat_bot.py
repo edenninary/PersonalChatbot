@@ -16,10 +16,6 @@ seed = 211
 np.random.seed(seed)
 torch.manual_seed(seed)
 
-#model we chose to work with, can be changed
-model_name = "yam-peleg/Hebrew-Mistral-7B"
-base_model_id = os.getenv(model_name)
-
 ########################################################
 ################## Paste Lines Here#####################
 ##
